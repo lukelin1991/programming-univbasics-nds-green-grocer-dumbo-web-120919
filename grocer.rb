@@ -30,7 +30,7 @@ def consolidate_cart(cart)
     end
     counter += 1
   end
-
+  return new_cart
   # Consult README for inputs and outputs
   #
   # REMEMBER: This returns a new Array that represents the cart. Don't merely
