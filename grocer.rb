@@ -5,6 +5,7 @@ def find_item_by_name_in_collection(name, collection)
   while idx < collection.length do
     if name == collection[idx][:item]
       return collection[idx]
+    end
     idx += 1
   end
   # Implement me first!
